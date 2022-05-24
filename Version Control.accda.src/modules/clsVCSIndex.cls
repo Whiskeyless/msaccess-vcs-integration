@@ -383,7 +383,7 @@ End Function
 '
 Public Function GetModifiedSourceFiles(cCategory As IDbComponent) As Collection
 
-    Dim colAllFiles As Dictionary
+    Dim colAllFiles As Collection
     Dim varFile As Variant
     Dim strFile As String
     Dim strPath As String

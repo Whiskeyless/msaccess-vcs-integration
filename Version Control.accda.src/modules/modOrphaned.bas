@@ -27,8 +27,8 @@ Public Sub ClearOrphanedSourceFolders(cType As IDbComponent)
     Dim varKey As Variant
     Dim colNames As Collection
     Dim cItem As IDbComponent
-    Dim oFolder As Scripting.Folder
-    Dim oSubFolder As Scripting.Folder
+    Dim oFolder As Folder
+    Dim oSubFolder As Folder
     Dim strSubFolderName As String
     
     ' No orphaned files if the folder doesn't exist.
@@ -79,8 +79,8 @@ End Sub
 '
 Public Sub ClearOrphanedSourceFiles(cType As IDbComponent, ParamArray StrExtensions())
     
-    Dim oFolder As Scripting.Folder
-    Dim oFile As Scripting.File
+    Dim oFolder As Folder
+    Dim oFile As File
     Dim dBaseNames As Dictionary
     Dim dExtensions As Dictionary
     Dim strBaseName As String

@@ -467,7 +467,6 @@ Private Function ImportLinkedTable(strFile As String) As Boolean
                     dbs.TableDefs.Refresh
                 End If
             End If
-            ImportLinkedTable = (Err.Number = 0)
         End If
     End If
     
