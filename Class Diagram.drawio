@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-28T15:33:14.711Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="gEHRp7tOLArZ_8qSRhwc" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-28T15:36:58.424Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="LmnM7gIgI05Cw6riDlYB" version="18.1.3" type="github">
   <diagram id="GSt9h3kdruzZYrg413bn" name="Page-1">
     <mxGraphModel dx="1888" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -51,11 +51,11 @@
         <mxCell id="RyFp8Hne5gM-qIEVJRmz-54" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;IExportVisitor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ visitTable(T: Table): IFile&lt;br&gt;+ visitQuery(T: Query): IFile&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;...&lt;/b&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="-20" y="1109.75" width="159" height="129" as="geometry" />
         </mxCell>
-        <mxCell id="RyFp8Hne5gM-qIEVJRmz-55" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;XMLExportVisitor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- File: XMLFile&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ visitTable(T: Table)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;b&gt;...&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-230" y="1230" width="140" height="90" as="geometry" />
+        <mxCell id="RyFp8Hne5gM-qIEVJRmz-55" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;XMLExportVisitor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- File: XMLFile&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;b&gt;...&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-230" y="1248.75" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="RyFp8Hne5gM-qIEVJRmz-56" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;JSONExportVisitor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- File: JSONFile&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ visitTable(T: Table)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;...&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-230" y="1080" width="140" height="90" as="geometry" />
+        <mxCell id="RyFp8Hne5gM-qIEVJRmz-56" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;JSONExportVisitor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- File: JSONFile&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;...&lt;/b&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-230" y="1048.75" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="RyFp8Hne5gM-qIEVJRmz-58" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="RyFp8Hne5gM-qIEVJRmz-56" target="RyFp8Hne5gM-qIEVJRmz-54" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -159,6 +159,36 @@
           <mxGeometry x="-0.8477" y="19" relative="1" as="geometry">
             <mxPoint x="-280" y="740" as="sourcePoint" />
             <mxPoint x="-120" y="740" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO3ZN0b0dXbY5rwRBVq8-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;TxtExportVisitor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- File: XMLFile&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;...&lt;/b&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="1148.75" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rO3ZN0b0dXbY5rwRBVq8-5" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rO3ZN0b0dXbY5rwRBVq8-4" target="RyFp8Hne5gM-qIEVJRmz-54">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-80" y="1103.75" as="sourcePoint" />
+            <mxPoint x="-10" y="1152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO3ZN0b0dXbY5rwRBVq8-6" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RyFp8Hne5gM-qIEVJRmz-56" target="RyFp8Hne5gM-qIEVJRmz-68">
+          <mxGeometry x="-0.3684" y="16" relative="1" as="geometry">
+            <mxPoint x="-230" y="1210" as="sourcePoint" />
+            <mxPoint x="-70" y="1210" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO3ZN0b0dXbY5rwRBVq8-8" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rO3ZN0b0dXbY5rwRBVq8-4" target="RyFp8Hne5gM-qIEVJRmz-70">
+          <mxGeometry x="-0.3684" y="16" relative="1" as="geometry">
+            <mxPoint x="-220" y="1103.75" as="sourcePoint" />
+            <mxPoint x="-315" y="1103.75" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO3ZN0b0dXbY5rwRBVq8-9" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RyFp8Hne5gM-qIEVJRmz-55" target="RyFp8Hne5gM-qIEVJRmz-69">
+          <mxGeometry x="-0.3684" y="16" relative="1" as="geometry">
+            <mxPoint x="-210" y="1113.75" as="sourcePoint" />
+            <mxPoint x="-305" y="1113.75" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
